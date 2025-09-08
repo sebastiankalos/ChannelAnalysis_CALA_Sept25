@@ -28,7 +28,7 @@ diag_dist = 300 # diagonal distance to FFT corner cut-out; if set to a number mu
 boundary_points_sig = None
 
 common_path = r"D:\kPAC\2025_09_05PMOPA" #portion of path common to both raw AND processed data
-run_path = r'\80mbar_Bdel604_t0' #unique bit of the path to the folder for a specific processing run
+run_path = r'\80mbar_Bdel552_t0' #unique bit of the path to the folder for a specific processing run
 sigPath_IR = common_path + run_path + r'\Interferometry2' #rest of the path to the folder containing signal-background pairs of images: 1030 nm (IR)
 sigPath_Green = common_path + run_path + r'\Interferometry1' #rest of the path to the folder containing signal-background pairs of images: 515 nm (Green)
 saveloc_IR = r'C:\Users\kalos\Documents\kPAC\ChannelAnalysis_CALA_Sept25\channel_analysis_sept25\phase_maps_sept25' + run_path + r'\Interferometry2' #location to save the processed data of this specific processing run
